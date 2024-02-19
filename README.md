@@ -17,7 +17,8 @@ create the data class paths to get the files from config yaml in 01_data_ingesti
 next create constant in 01_data_ingestion.ipynb to import all from constants __init__ file
 import utils common read_yaml,create_directories in 01_data_ingestion.ipynb to import all from constants __init__ file
 
-
+dvc init
+dvc repro
 
 
 
